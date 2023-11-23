@@ -1,0 +1,218 @@
+[WB-4] User is not able to see registration button
+Type: Bug 
+Priority: High
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+Pre-condition:
+Registration page is opened
+
+Steps to reproduce:
+Move a mouse pointer to the registration button
+
+Actual result:
+Registration button doesn't appear until you put mouse pointer on it
+
+Expected result:
+Registration button should be visible
+
+--------------------------------------------------------------
+[WB-5] Confirm password field is missing
+Type: Bug 
+Priority: Medium
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+Pre-condition:
+Registration page is opened
+
+Actual result:
+Confirm password filed is not added
+
+Expected result:
+Confirm password filed should be below password field
+
+--------------------------------------------------------------
+[WB-6] All fields got incresed when the user clicks on "Show password" button 
+Type: Bug 
+Priority: High
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Pre-condition:
+Registration page is opened
+
+Steps:
+Click on “show password” button
+
+Actual results:
+All fields are incresed after clicking on “show password” button
+
+Expected results:
+All fields stay the same size as defult when user clicks on “show password” button
+
+--------------------------------------------------------------
+[WB-7] Show password button
+Type: Bug 
+Priority: Medium
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+
+Pre-condition:
+Registration page is opened successfully
+
+Actual result:
+Show password is a button next to password field
+
+Expected result:
+Show password should be an icon in the right corner of password field
+
+--------------------------------------------------------------
+[WB-8] Product image is not the right size 
+Type: Bug 
+Priority: High
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+
+Pre-condition:
+  1.Chrome is opened successfully
+  2.Web application is loaded successfully
+
+Steps to reproduce:
+  1.Click on “menu” page navigated in header
+
+Actual result:
+Image of the product “SmashMe” is not aligned with another image of second product. They are different sizes
+
+Expected result:
+All the images of the products are the same size and aligned with each other
+
+--------------------------------------------------------------
+[WB-9] Products descriptions are not centered
+Type: Bug 
+Priority: Low
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description: 
+
+Pre-condition:
+  1.Chrome is opened successfully
+  2.The web application is loaded successfully
+
+Steps to reproduce:
+  1.Click on the “menu” page
+
+Actual results:
+The products description has left alignment
+
+Expected results:
+The products description should be aligned at the center
+--------------------------------------------------------------
+[WB-10] The "Add to cart" image is missing
+Type: Bug 
+Priority: Medium
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+
+Pre-condition:
+  1.Chrome is opened successfully
+  2.The web application is loaded successfully
+
+Steps to reproduce:
+  1.Click on the “menu” page
+  2.Click on the “add to cart” button
+
+Actual results:
+After clicking on the “add to cart” button, the product image is not loaded successfully, it missing
+
+Exptected results:
+After clicking on the “add to cart” button, the product image has to be loaded successfully
+--------------------------------------------------------------
+[WB-11] The add to cart dialog window is missing close icon
+Type: Bug 
+Priority: Medium
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+
+Pre-condition:
+  1.Chrome is opened successfully
+  2.The web application is loaded successfully
+ 
+Steps to reproduce:
+  1.Click on the “menu” page
+  2.Click on the “add to cart” button
+ 
+Actual results:
+The “add to cart” dialog window is missing the close ( “x” ) icon
+
+Expected results:
+The “add to cart” dialog window should have an close ( “x” ) icon
+--------------------------------------------------------------
+[WB-12] The checkout dialog window is missing close icon
+Type: Bug 
+Priority: Medium
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+Pre-condition:
+  1.Chrome is opened successfully
+  2.The web application is loaded successfully
+ 
+Steps to reproduce:
+  1.Click on the “menu” page
+  2.Click on the “add to cart” button
+  3.Click on the “checkout” button
+ 
+
+Actual results:
+The “checkout” dialog window is missing the close ( “x” ) icon
+
+Expected results:
+The “checkout” dialog window should have an close ( “x” ) icon
+--------------------------------------------------------------
+[WB-14] "Add extra fries" feature has a problem with calculating price
+Type: Bug 
+Priority: High
+Components: Chrome browser
+Attachments: Capture.jpg
+Sprint: Registration form
+
+Description:
+
+Pre-condition:
+Chrome browser is opened successfully
+
+Steps to reproduce:
+  1.Open the “menu” page located at the header
+  2.Click on the “Add to cart” button
+  3.Click on the check box to add extra fries feature
+  4.Close the dialog windows
+  5.Click again on the “Add to cart” button
+  6.Click on the check box and uncheck it
+
+Actual result:
+If the checkbox stays checked after the user closes the dialog windows, the next time the user wants to check the checkbox, the price of “extra fries” lowers the price less than the original price of the product.
+
+Expected results:
+Every time the user closes the dialog window, the checkbox shouldn’t stay checked. It has to be blank for a new check every time.
