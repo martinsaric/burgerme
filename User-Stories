@@ -1,0 +1,38 @@
+[WB-15] As a user I want to be able to login 
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-16] As a user I want to be able to signup 
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-17] As a user I want to be able to add product in the cart 
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-18] As a user I want to be able to add extra fries on my order
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-19] As a user I want to be able to checkout after adding product to my cart 
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-20] As a user I want to be able to see products description below them 
+Type: Story
+Pririty: Medium
+
+-----------------------------------------------------------------
+[WB-21] As a user I want to be able to see products price
+Type: Story
+Pririty: High
+
+-----------------------------------------------------------------
+[WB-22] As a user I want to be able to see products images 
+Type: Story
+Pririty: High
